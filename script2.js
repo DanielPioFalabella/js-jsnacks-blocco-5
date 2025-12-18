@@ -5,4 +5,10 @@ const people = [
 ];
 
 // Stampa in console tutti i nomi
+const peopleArray = people.map((person) => {
+  return person.name
+})
+
+console.log(peopleArray)
+
 // Risultato: 'Paolo', 'Giulia', 'Marco'
