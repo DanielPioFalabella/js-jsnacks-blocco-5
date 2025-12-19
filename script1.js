@@ -1,6 +1,6 @@
 const names = ['Edoardo', 'Simone', 'Francesco'];
 
-console.log(names)
-
 // Stampa in console tutti i nomi
+names.forEach((nomi) => {console.log(names)})
+
 // Risultato: 'Edoardo', 'Simone', 'Francesco'

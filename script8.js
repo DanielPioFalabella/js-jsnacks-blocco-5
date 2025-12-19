@@ -1,4 +1,4 @@
-const students = [
+const students2 = [
   {
     id: 1,
     name: 'Marco Lanci',
@@ -20,4 +20,9 @@ const students = [
 ];
 
 // Recupera la classe dello studente 'Marco Lanci'
+const classeMarco = students2.find(
+  marco => students2.name === "Marco Lanci").class;
+
+console.log(classeMarco)
+
 // Risultato: '3C'
